@@ -218,7 +218,7 @@ value_template:
 ## Examples
 
 In this section you find some real-life examples of how to use this sensor.
-
+Please note below this point yaml examples were left as old deprecated format. When implementing below examples kindly convert into new format.
 ### JSON attributes topic configuration
 
 The example sensor below shows a configuration example which uses a JSON dict: `{"ClientName": <string>, "IP": <string>, "MAC": <string>, "RSSI": <string>, "HostName": <string>, "ConnectedSSID": <string>}` in a separate topic `home/sensor1/attributes` to add extra attributes. It also makes use of the `availability` topic.
